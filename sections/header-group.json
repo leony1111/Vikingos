@@ -26,7 +26,7 @@
       "settings": {
         "color_scheme": "accent-2",
         "logo_position": "middle-left",
-        "menu": "menu-primary",
+        "menu": "main-menu",
         "menu_type_desktop": "dropdown",
         "sticky_header_type": "on-scroll-up",
         "show_line_separator": true,
@@ -39,7 +39,7 @@
     "fcc7e15d-67ef-4a1d-aa75-48197a76aca9": {
       "type": "header-menu",
       "settings": {
-        "menu": "menu-primary"
+        "menu": ""
       }
     }
   },
