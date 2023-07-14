@@ -1,0 +1,17 @@
+{
+  "parent": "article.json",
+  "context": {
+    "market": "co"
+  },
+  "sections": {
+    "main": {
+      "blocks": {
+        "share": {
+          "settings": {
+            "share_label": "Compartir"
+          }
+        }
+      }
+    }
+  }
+}

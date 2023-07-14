@@ -1,0 +1,14 @@
+nav.header__inline-menu {
+    background: #F6F4ED;
+    text-align: center;
+    padding: 25px 0px;
+}
+
+nav.header__inline-menu p {
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 26px;
+    color: #000000;
+}

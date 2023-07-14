@@ -1,0 +1,121 @@
+<section class="map">
+    <h2>{{ section.settings.title }} </h2>
+    {%- if section.settings.map != blank -%}
+        <div class="map-iframe">
+            {{ section.settings.map }} 
+        </div>
+    {%- endif -%}
+    <div class="map-content">
+        {% for block in section.blocks %}
+            {%- if block.settings.icon_map != blank -%}
+                <div class="info-icon d-flex">
+                    <img src="{{ block.settings.icon_map | img_url: '28x27' }} " alt="">
+                    <p>{{ block.settings.text_map }}</p>
+                </div>
+            {%- endif -%}
+        {% endfor %}
+    </div>
+</section>
+
+
+{% schema %}
+    {
+        "name": "Map",
+        "class": "section-map",
+        "settings": [
+            {
+                "type": "text",
+                "id": "title",
+                "label": "Title"
+            },
+            {
+                "type": "textarea",
+                "id": "map",
+                "label": "Iframe Map"
+            }
+        ],
+        "blocks":[
+            {
+            "name": "Info",
+            "type": "text",
+            "settings": [
+                {
+                    "type": "image_picker",
+                    "id": "icon_map",
+                    "label": "Icon"
+                },
+                {
+                    "type": "textarea",
+                    "id": "text_map",
+                    "label": "Text"
+                }
+            ]
+            }
+        ],
+        "presets": [
+        {
+            "name": "Map",
+            "category": "Text"
+        }
+        ]
+    }
+{% endschema %}
+
+{% if page.handle == 'contact' %}
+    <style>
+        main#MainContent {
+            display: flex;
+            margin: auto;
+        }
+        section.contact-form {
+            margin: auto 100px;
+        }
+        .contact__fields {
+            display: block !important;
+        }
+        input#ContactForm-name {
+            width: 400px;
+        }
+        button.button {
+            width: 406px;
+        }
+        p.title.title-wrapper--no-top-margin {
+            margin-bottom: 0px;
+            font-family: 'DM Sans';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 18px;
+            line-height: 125%;
+            letter-spacing: 0.005em;
+            color: #11142D;
+        }
+    </style>
+{% endif %}
+
+<style>
+    section.map {
+        margin: auto;
+        display: inline-grid;
+        text-align: center;
+    }
+    .map-content {
+        margin: auto 0;
+    }
+    .map-content img {
+        margin: auto 20px;
+        max-width: 20px;
+    }
+    .map-iframe {
+        margin: 100px auto;
+    }
+    .map h2 {
+        font-family: 'Noto Serif';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 48px;
+        line-height: 120%;
+        letter-spacing: 0.005em;
+        color: #11142D;
+        text-align: initial;
+    }
+</style>

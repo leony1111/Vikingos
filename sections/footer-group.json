@@ -1,0 +1,73 @@
+{
+  "name": "t:sections.footer.name",
+  "type": "footer",
+  "sections": {
+    "footer": {
+      "type": "footer",
+      "blocks": {
+        "d5f363d6-765a-47e8-807e-a684e8475044": {
+          "type": "text",
+          "settings": {
+            "heading": "",
+            "image": "shopify:\/\/shop_images\/vikingos-logo-footer.png",
+            "subtext": "NIT: 901647739-1"
+          }
+        },
+        "1f1ad076-56f7-4897-b092-18a29a22e916": {
+          "type": "link_list",
+          "settings": {
+            "heading": "Menú",
+            "menu": "footer"
+          }
+        },
+        "397ba22f-8777-481a-8475-7fac8d7e1e28": {
+          "type": "Contact",
+          "settings": {
+            "icon_contact": "shopify:\/\/shop_images\/Forma_1.png",
+            "text_contact": "CARRERA 55 # 46 -41 SECTOR TENERIFE\/ CENTRO DE MEDELLÍN"
+          }
+        },
+        "cfa6411d-37c4-4890-aa75-ce110c2a9116": {
+          "type": "Contact",
+          "settings": {
+            "icon_contact": "shopify:\/\/shop_images\/Vector.png",
+            "text_contact": "(064) 511 0738 \/ (064) 512 04 82\n+57 3117410100"
+          }
+        },
+        "0b1e4379-891f-4633-8ac9-b9613a374723": {
+          "type": "Contact",
+          "settings": {
+            "icon_contact": "shopify:\/\/shop_images\/Vector_1.png",
+            "text_contact": "comercializaravikingos@gmail.com\n<br>\nHorario de atención: de Lunes a sábado de 8:00 am a 6:00 pm"
+          }
+        }
+      },
+      "block_order": [
+        "d5f363d6-765a-47e8-807e-a684e8475044",
+        "1f1ad076-56f7-4897-b092-18a29a22e916",
+        "397ba22f-8777-481a-8475-7fac8d7e1e28",
+        "cfa6411d-37c4-4890-aa75-ce110c2a9116",
+        "0b1e4379-891f-4633-8ac9-b9613a374723"
+      ],
+      "settings": {
+        "color_scheme": "accent-1",
+        "whatsapp": "https:\/\/wa.me\/573117410100",
+        "title_contact": "Contáctanos",
+        "newsletter_enable": false,
+        "newsletter_heading": "Subscribe to our emails",
+        "enable_follow_on_shop": false,
+        "show_social": true,
+        "enable_country_selector": true,
+        "enable_language_selector": true,
+        "payment_enable": true,
+        "show_policy": false,
+        "margin_top": 48,
+        "padding_top": 28,
+        "padding_bottom": 28
+      }
+    }
+  },
+  "order": [
+    "footer"
+  ]
+}

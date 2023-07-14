@@ -1,0 +1,182 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "padding_top": 28,
+        "padding_bottom": 28
+      }
+    },
+    "fee33acc-1d7c-4e9b-ab70-9a811934b17c": {
+      "type": "advanced-content",
+      "blocks": {
+        "8d4d0a63-6f32-4b87-a626-b8bde0375137": {
+          "type": "image",
+          "settings": {
+            "width": "50%",
+            "align": "center",
+            "image": "shopify:\/\/shop_images\/vik.jpg",
+            "image_link": ""
+          }
+        },
+        "template--19199221301534__fee33acc-1d7c-4e9b-ab70-9a811934b17c-1685497571344743c4-0": {
+          "type": "html",
+          "settings": {
+            "code": "<div style=\"max-width:458px; margin:auto;\">\n<h3 style=\"font-family: 'Noto Serif';\nfont-style: normal;\nfont-weight: 500;\nfont-size: 38px;\nline-height: 120%;\ntext-align: center;\nletter-spacing: 0.005em;\ncolor: #11142D;\">NUESTRA HISTORIA<\/h3>\n<br>\n<p style=\"font-family: 'DM Sans';\nfont-style: normal;\nfont-weight: 400;\nfont-size: 14px;\nline-height: 28px;\ncolor: #11142D;\">Somos comercializadores e importadores de artículos para la cocina, el bar y la mesa desde 1986, con una trayectoria de más de 30 años en el mercado que certifica nuestra calidad y experiencia. Somos distribuidores, apasionados por los métodos de café, baristas, catadores e impulsadores de grandes emprendimientos en Colombia. \nDistribuimos diferentes marcas de electromenores, utensilios en plástico, antiadherentes, piedra volcánica, peltre, cristal, melamina, aluminio, acero inoxidable y cualquier variedad de productos que hacen tu vida más sencilla y práctica. Estamos convencidos que el servicio al cliente debe ser de alta calidad es por ello que trabajamos constantemente en generar experiencias de atención exitosas. Bienvenidos. \n<\/p>\n<\/div>",
+            "width": "50%",
+            "align": "center"
+          }
+        }
+      },
+      "block_order": [
+        "8d4d0a63-6f32-4b87-a626-b8bde0375137",
+        "template--19199221301534__fee33acc-1d7c-4e9b-ab70-9a811934b17c-1685497571344743c4-0"
+      ],
+      "settings": {
+        "animation": "",
+        "paddingsection": "0px 0px 0px 0px",
+        "paddingmobile": "40px 40px 40px 40px",
+        "marginsection": "0px 0px 0px 0px",
+        "marginmobile": "0px 0px 0px 0px",
+        "zindex": "0",
+        "bgsection": "#fefefe",
+        "rangebg": 50,
+        "bgbefore": "rgba(0,0,0,0)",
+        "title_top": "Sub Title Top",
+        "title": "Custom content",
+        "des": "",
+        "setwidth": "container-fluid",
+        "padding": true
+      }
+    },
+    "d8e7a4c0-996d-4fe6-bead-fc6f259069f8": {
+      "type": "advanced-content",
+      "blocks": {
+        "template--19199221301534__d8e7a4c0-996d-4fe6-bead-fc6f259069f8-1685497571344743c4-0": {
+          "type": "html",
+          "settings": {
+            "code": "<div style=\"max-width:458px; margin:auto\">\n<h3 style=\"font-family: 'Noto Serif';\nfont-style: normal;\nfont-weight: 500;\nfont-size: 38px;\nline-height: 120%;\ntext-align: center;\nletter-spacing: 0.005em;\ncolor: #11142D;\">TRABAJO DEDICADO<\/h3>\n<br>\n<p style=\"font-family: 'DM Sans';\nfont-style: normal;\nfont-weight: 400;\nfont-size: 14px;\nline-height: 28px;\ncolor: #11142D;\">Contamos con personal capacitado para visitar tu empresa, darte a conocer nuestros productos de las líneas de comercialización e importación, listado de precios, etc.  En nuestra tienda física ubicada en la ciudad de Medellín realizamos eventos de promoción y presentación de productos orientados al hogar, mesa y bar. \nNuestro equipo de colaboradores cuenta con gran experiencia en la explicación de cada una de la línea de productos que manejamos con el compromiso de generar en nuestros clientes un acercamiento a conocer, entender y comprar el producto. \nAsí mismo es el compromiso con aquellos que no pueden visitarnos, cada pedido cuenta con servicio de empaque, ruta y el mejor seguimiento hasta llegar a nuestro cliente, esto con la intención de garantizar una experiencia de compra exitosa y cómoda para todos los que deciden comprar de manera virtual y a distancia.  \n<\/p>\n<\/div>",
+            "width": "50%",
+            "align": "center"
+          }
+        },
+        "cda93110-6801-424e-9e60-8c386e913820": {
+          "type": "image",
+          "settings": {
+            "width": "50%",
+            "align": "center",
+            "image": "shopify:\/\/shop_images\/WhatsApp_Image_2023-03-15_at_11.25.18_AM.jpg",
+            "image_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--19199221301534__d8e7a4c0-996d-4fe6-bead-fc6f259069f8-1685497571344743c4-0",
+        "cda93110-6801-424e-9e60-8c386e913820"
+      ],
+      "settings": {
+        "animation": "",
+        "paddingsection": "30px 0px 30px 0px",
+        "paddingmobile": "40px 40px 40px 40px",
+        "marginsection": "0px 0px 0px 0px",
+        "marginmobile": "0px 0px 0px 0px",
+        "zindex": "0",
+        "bgsection": "#f6f4ed",
+        "rangebg": 50,
+        "bgbefore": "rgba(0,0,0,0)",
+        "title_top": "Sub Title Top",
+        "title": "Custom content",
+        "des": "",
+        "setwidth": "container-fluid",
+        "padding": true
+      }
+    },
+    "00aa9f6f-161b-48c9-9471-5b4484ab8370": {
+      "type": "advanced-content",
+      "blocks": {
+        "bc5b2abd-c44a-450c-b085-8fea649260f6": {
+          "type": "image",
+          "settings": {
+            "width": "33%",
+            "align": "center",
+            "image": "shopify:\/\/shop_images\/Rectangle_1152.png",
+            "image_link": ""
+          }
+        },
+        "template--19199221301534__00aa9f6f-161b-48c9-9471-5b4484ab8370-1685497571344743c4-0": {
+          "type": "html",
+          "settings": {
+            "code": "<div class=\"founder-div\">\n<p>“Nuestra meta es llegar a todo el mundo comercializando productos para el hogar, la mesa y el bar, certificando 30 años de experiencia en el mercado. Desde 1986 comprometidos con cada uno de nuestros clientes. Un placer tenerlos por aquí.”<\/p>\n<br>\n<span>— Ruben Dario Carmona Luna, fundador<\/span>\n<\/div>",
+            "width": "58%",
+            "align": "center"
+          }
+        }
+      },
+      "block_order": [
+        "bc5b2abd-c44a-450c-b085-8fea649260f6",
+        "template--19199221301534__00aa9f6f-161b-48c9-9471-5b4484ab8370-1685497571344743c4-0"
+      ],
+      "settings": {
+        "animation": "",
+        "paddingsection": "100px 0px 100px 0px",
+        "paddingmobile": "60px 0px 60px 0px",
+        "marginsection": "0px 0px 0px 0px",
+        "marginmobile": "0px 0px 0px 0px",
+        "zindex": "0",
+        "bgsection": "#fefefe",
+        "rangebg": 50,
+        "bgbefore": "rgba(0,0,0,0)",
+        "title_top": "Sub Title Top",
+        "title": "Custom content",
+        "des": "",
+        "setwidth": "container",
+        "padding": true
+      }
+    },
+    "83087e53-c3bc-4379-bae7-99ac33dfb469": {
+      "type": "icons-banner",
+      "blocks": {
+        "06322c08-df75-4476-a477-b58a0ae37e4c": {
+          "type": "home",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Vector_8213d947-2742-408f-8b82-2c1debc6f91f.png",
+            "title": "ENVÍOS SEGUROS",
+            "text": "A todo el país.\nConoce más sobre nuestra <a href=\"https:\/\/vikingos-colombia.myshopify.com\/pages\/shipping-policies\">Política de envíos.<\/a>"
+          }
+        },
+        "8ce534c4-a147-4bbb-8f98-79fa64668ab3": {
+          "type": "home",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/ant-design_safety-certificate-outlined.png",
+            "title": "GARANTÍA",
+            "text": "Directa con nuestros aliados o nuestra marca.\nConoce más en <a href=\"https:\/\/vikingos-colombia.myshopify.com\/pages\/terms-conditions\">Términos y condiciones.<\/a>"
+          }
+        },
+        "98fe0b61-8665-450f-98de-90702f848da9": {
+          "type": "home",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Vector_adb87ee8-1093-46ef-b168-4d0ec496752e.png",
+            "title": "COMPRA SEGURA",
+            "text": "Tus datos están siempre protegidos dentro de nuestra página"
+          }
+        }
+      },
+      "block_order": [
+        "06322c08-df75-4476-a477-b58a0ae37e4c",
+        "8ce534c4-a147-4bbb-8f98-79fa64668ab3",
+        "98fe0b61-8665-450f-98de-90702f848da9"
+      ],
+      "settings": {
+        "color_body": "#f6f4ed"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "fee33acc-1d7c-4e9b-ab70-9a811934b17c",
+    "d8e7a4c0-996d-4fe6-bead-fc6f259069f8",
+    "00aa9f6f-161b-48c9-9471-5b4484ab8370",
+    "83087e53-c3bc-4379-bae7-99ac33dfb469"
+  ]
+}

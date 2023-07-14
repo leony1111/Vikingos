@@ -1,0 +1,120 @@
+{{ 'numbers.css' | asset_url | stylesheet_tag }}
+
+<div class="numbers container-fluid">
+    <div class="numbers-content row">
+        <div class="col-6 numbers-title" style="background-color:{{ section.settings.color_body }}">
+            {% if section.settings.title %}
+                <h4>{{ section.settings.title }}</h4>
+            {% endif %}
+            {% if section.settings.sub_title %}
+                <h3>{{ section.settings.sub_title }}</h3>
+            {% endif %}
+        </div>
+        <div class="col-6 numbers-info row">
+            <div class="content-counter col-6 first-number">
+                <div class="content-counter-wrapper">
+                    <div class="counter-prefix">+</div>
+                    <div style="color:{{ section.settings.color_numbers }};" id="count1"></div>
+                </div>
+                {% if section.settings.nr_one_title %}
+                    <h5>{{ section.settings.nr_one_title }}</h5>
+                {% endif %}
+                {% if section.settings.nr_one_text %}
+                    <p>{{ section.settings.nr_one_text }}</p>
+                {% endif %}
+            </div>
+            <div class="content-counter col-6 second-number">
+                <div style="color:{{ section.settings.color_numbers }};" id="count2"></div>
+                {% if section.settings.nr_two_title %}
+                    <h5>{{ section.settings.nr_two_title }}</h5>
+                {% endif %}
+                {% if section.settings.nr_two_text %}
+                    <p>{{ section.settings.nr_two_text }}</p>
+                {% endif %}
+            </div>
+        </div>
+    </div>
+</div>
+
+{% schema %}
+    {
+        "name": "Numbers",
+        "class": "section-numbers vk-numbers",
+        "tag": "section",
+        "settings": [
+            {
+                "type": "textarea",
+                "id": "title",
+                "label": "Title"
+            },
+            {
+                "type": "textarea",
+                "id": "sub_title",
+                "label": "Subtitle"
+            },
+            {
+                "type": "color",
+                "id": "color_body",
+                "label": "Background"
+            },
+            {
+                "type": "color",
+                "id": "color_numbers",
+                "label": "Color Numbers"
+            }, {
+                "type": "text",
+                "id": "number_one",
+                "label": "Number One"
+            }, {
+                "type": "text",
+                "id": "nr_one_title",
+                "label": "Number One Title"
+            }, {
+                "type": "text",
+                "id": "nr_one_text",
+                "label": "Number One Text"
+            }, {
+                "type": "text",
+                "id": "number_two",
+                "label": "Number Two"
+            }, {
+                "type": "text",
+                "id": "nr_two_title",
+                "label": "Number Two Title"
+            }, {
+                "type": "text",
+                "id": "nr_two_text",
+                "label": "Number Two Text"
+            }
+        ],
+        "presets": [
+            {
+                "name": "Numbers",
+                "category": "Text"
+            }
+        ]
+    }
+{% endschema %}
+
+<script>
+    document.addEventListener("DOMContentLoaded", () => {
+        function counter(id, start, end, duration) {
+            let obj = document.getElementById(id),
+                current = start,
+                range = end - start,
+                increment = end > start
+                    ? 1
+                    : -1,
+                step = Math.abs(Math.floor(duration / range)),
+                timer = setInterval(() => {
+                    current += increment;
+                    obj.textContent = current;
+                    if (current == end) {
+                        clearInterval(timer);
+                    }
+                }, step);
+        }
+        counter("count1", 0, {{section.settings.number_one}}, 3000);
+        counter("count2", 100, {{ section.settings.number_two }}, 2500);
+    });
+</script>

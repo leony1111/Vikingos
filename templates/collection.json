@@ -1,0 +1,74 @@
+{
+  "sections": {
+    "banner": {
+      "type": "main-collection-banner",
+      "settings": {
+        "show_collection_description": false,
+        "show_collection_image": false,
+        "color_scheme": "background-1"
+      }
+    },
+    "product-grid": {
+      "type": "main-collection-product-grid",
+      "settings": {
+        "hero_image": "shopify:\/\/shop_images\/image_153.jpg",
+        "hero_title": "Cocina",
+        "hero_preheading": "Artículos de",
+        "products_per_page": 16,
+        "columns_desktop": 4,
+        "image_ratio": "adapt",
+        "show_secondary_image": true,
+        "show_vendor": false,
+        "show_rating": false,
+        "enable_quick_add": true,
+        "enable_filtering": true,
+        "filter_type": "vertical",
+        "enable_sorting": true,
+        "columns_mobile": "2",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "ba2090ef-ca5e-4a77-9312-4475d800fdea": {
+      "type": "icons-with-description",
+      "blocks": {
+        "7df1bf2a-031c-48c9-abe3-1aeb16d9841c": {
+          "type": "icons",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Group_36927.png",
+            "title": "ENVÍOS SEGUROS",
+            "description": "A todo el país.\nConoce más sobre nuestra <a href=\"https:\/\/vikingos-colombia.myshopify.com\/pages\/shipping-policies\">Política de envíos.<\/a>"
+          }
+        },
+        "d209b8f3-ae35-4a34-a4ff-481b27bd3ae6": {
+          "type": "icons",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Group_36928.png",
+            "title": "GARANTÍA",
+            "description": "Directa con nuestros aliados o nuestra marca.\nConoce más en <a href=\"https:\/\/vikingos-colombia.myshopify.com\/pages\/terms-conditions\">Términos y condiciones.<\/a>"
+          }
+        },
+        "124fdd55-06be-40c5-9fe3-68217db01dfb": {
+          "type": "icons",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Group_36930.png",
+            "title": "COMPRA SEGURA",
+            "description": "Tus datos están siempre protegidos dentro de nuestra página"
+          }
+        }
+      },
+      "block_order": [
+        "7df1bf2a-031c-48c9-abe3-1aeb16d9841c",
+        "d209b8f3-ae35-4a34-a4ff-481b27bd3ae6",
+        "124fdd55-06be-40c5-9fe3-68217db01dfb"
+      ],
+      "settings": {
+      }
+    }
+  },
+  "order": [
+    "banner",
+    "product-grid",
+    "ba2090ef-ca5e-4a77-9312-4475d800fdea"
+  ]
+}

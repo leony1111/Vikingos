@@ -1,0 +1,77 @@
+<style type="text/css">
+  .template-404 .title + * {
+    margin-top: 1rem;
+    margin: auto;
+    text-align: center;
+  }
+
+  .template-404 p {
+    font-family: 'Noto Serif';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 270px;
+    line-height: 120%;
+    color: #1D1D1D;
+  }
+
+  .template-404 img {
+    width: 190px;
+    height: 190px;
+    margin: auto 30px;
+  }
+
+  .template-404-content {
+    margin: auto;
+    text-align: center;
+    justify-content: center;
+  }
+  .template-404 h1.title {
+    margin: 0px 0px 35px 0px;
+  }
+  .template-404 a.button {
+    background-color: #9D0616;
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 120%;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    width: 237px;
+  }
+  .template-404 a.button:hover {
+    background-color: #000;
+    border: none;
+  }
+  @media screen and (min-width: 750px) {
+    .template-404 .title + * {
+      margin-top: 2rem;
+    }
+  }
+  @media screen and (max-width: 768px) {
+    .template-404 p {
+      font-size: 140px;
+    }
+    .template-404 img {
+      width: 100px;
+      height: 100px;
+      margin: auto 20px;
+    }
+  }
+</style>
+
+<div class="template-404 page-width page-margin center">
+  <div class="template-404-content d-flex justify-content">
+    <p>4</p>
+    <img src="https://cdn.shopify.com/s/files/1/0737/5916/2654/files/broken-plate_1.png?v=1683850305" alt="">
+    <p>4</p>
+  </div>
+  <h1 class="title">
+    {{ 'templates.404.title' | t }}
+  </h1>
+  <a href="{{ routes.all_products_collection_url }}" class="button">
+    {{ 'general.continue_shopping' | t }}
+  </a>
+</div>

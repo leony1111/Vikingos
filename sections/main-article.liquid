@@ -1,0 +1,176 @@
+<div class="container my-40">
+
+  <div class="block md:flex items-start gap-40">
+    <div class="basis-2/3">
+      <div class="hidden md:block"> {% render 'breadcrumbs' %}</div>
+      <article class="article-template" itemscope itemtype="http://schema.org/BlogPosting">
+        <h1 class="font-semibold text-5xl leading-normal my-8">{{ article.title }}</h1>
+        <img src="{{ article.image | image_url: width: 780 }}" alt="{{ article.title}}" loading="lazy" class="w-full h-full md:max-w-[800px] md:max-h-[400px] object-cover rounded mb-8">
+        {% if article.metafields.custom.author and article.metafields.custom.quote %}
+          <blockquote class="text-xl italic font-semibold text-left md:max-w-[700px] max-w-full py-12 border-l-[#6941C6]">
+            <p>"{{ article.metafields.custom.quote }}"</p>
+            <small class="float-left mt-8 text-[#667085]">— {{ article.metafields.custom.author }}</small>
+          </blockquote>
+        {% endif %}
+        <div class="mt-12">
+          {{ article.content }}
+        </div>
+
+        <div class="border-t-black">
+          <div class="flex items-center mt-8">
+            <div class="basis-1/2">
+              {% for tag in article.tags %}
+                <span class="rounded-full text-[#026AA2] bg-[#F0F9FF] px-4 py-2 mr-4">{{ tag }}</span>
+              {% endfor %}
+            </div>
+            <div class="basis-1/2">
+              
+            </div>
+          </div>
+        </div>
+      </article>
+    </div>
+    <div class="basis-1/3">
+      {% for article in blog.articles %}
+        {% render 'blog-card', classes: "mb-8", article: article, blog: section.settings.blog, forloop: forloop %}
+      {% endfor %}
+    </div>
+  </div>
+</div>
+
+<div class="bg-[#F6F4ED] py-12 md:py-40">
+  <div class="container">
+    <p class="text-brand-red text-[25px] mb-12 md:text-left text-center font-semibold">Articulos Destacados</p>
+    <div class="block md:flex items-start gap-24">
+      {% paginate blog.articles by 3 %}
+      {% for article in blog.articles %}
+          <div class="basis-1/3 mb-8 md:mb-0">{% render 'blog-card-2', classes:"min-h-[600px]",article: article, blog: section.settings.blog %}</div>
+      {% endfor %}
+    {% endpaginate %}
+    </div>
+    {%- if paginate.pages > 1 -%}
+      {%- render 'pagination', paginate: paginate -%}
+    {%- endif -%}
+  </div>
+</div>
+
+<script type="application/ld+json">
+  {
+    "@context": "http://schema.org",
+    "@type": "Article",
+    "articleBody": {{ article.content | strip_html | json }},
+    "mainEntityOfPage": {
+      "@type": "WebPage",
+      "@id": {{ request.origin | append: page.url | json }}
+    },
+    "headline": {{ article.title | json }},
+    {% if article.excerpt != blank %}
+      "description": {{ article.excerpt | strip_html | json }},
+    {% endif %}
+    {% if article.image %}
+      "image": [
+        {{ article | image_url: width: 1920 | prepend: "https:" | json }}
+      ],
+    {% endif %}
+    "datePublished": {{ article.published_at | date: '%Y-%m-%dT%H:%M:%SZ' | json }},
+    "dateCreated": {{ article.created_at | date: '%Y-%m-%dT%H:%M:%SZ' | json }},
+    "author": {
+      "@type": "Person",
+      "name": {{ article.author | json }}
+    },
+    "publisher": {
+      "@type": "Organization",
+      "name": {{ shop.name | json }}
+    }
+  }
+</script>
+
+{% schema %}
+{
+  "name": "t:sections.main-article.name",
+  "tag": "section",
+  "class": "section",
+  "blocks": [
+    {
+      "type": "@app"
+    },
+    {
+      "type": "featured_image",
+      "name": "t:sections.main-article.blocks.featured_image.name",
+      "limit": 1,
+      "settings": [
+        {
+          "type": "select",
+          "id": "image_height",
+          "options": [
+            {
+              "value": "adapt",
+              "label": "t:sections.main-article.blocks.featured_image.settings.image_height.options__1.label"
+            },
+            {
+              "value": "small",
+              "label": "t:sections.main-article.blocks.featured_image.settings.image_height.options__2.label"
+            },
+            {
+              "value": "medium",
+              "label": "t:sections.main-article.blocks.featured_image.settings.image_height.options__3.label"
+            },
+            {
+              "value": "large",
+              "label": "t:sections.main-article.blocks.featured_image.settings.image_height.options__4.label"
+            }
+          ],
+          "default": "adapt",
+          "label": "t:sections.main-article.blocks.featured_image.settings.image_height.label",
+          "info": "t:sections.main-article.blocks.featured_image.settings.image_height.info"
+        }
+      ]
+    },
+    {
+      "type": "title",
+      "name": "t:sections.main-article.blocks.title.name",
+      "limit": 1,
+      "settings": [
+        {
+          "type": "checkbox",
+          "id": "blog_show_date",
+          "default": true,
+          "label": "t:sections.main-article.blocks.title.settings.blog_show_date.label"
+        },
+        {
+          "type": "checkbox",
+          "id": "blog_show_author",
+          "default": false,
+          "label": "t:sections.main-article.blocks.title.settings.blog_show_author.label"
+        }
+      ]
+    },
+    {
+      "type": "content",
+      "name": "t:sections.main-article.blocks.content.name",
+      "limit": 1
+    },
+    {
+      "type": "share",
+      "name": "t:sections.main-article.blocks.share.name",
+      "limit": 2,
+      "settings": [
+        {
+          "type": "text",
+          "id": "share_label",
+          "label": "t:sections.main-article.blocks.share.settings.text.label",
+          "default": "Share"
+        },
+        {
+          "type": "paragraph",
+          "content": "t:sections.main-article.blocks.share.settings.featured_image_info.content"
+        },
+        {
+          "type": "paragraph",
+          "content": "t:sections.main-article.blocks.share.settings.title_info.content"
+        }
+      ]
+    }
+  ]
+}
+{% endschema %}

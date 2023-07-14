@@ -1,0 +1,51 @@
+section.numbers .numbers-content{
+    width: 100%;
+}
+
+.numbers-title {
+    text-align: center;
+    align-items: center;
+    display: grid;
+    border-right: 44px solid #000;
+    margin: auto;
+    min-height: 434px;
+}
+
+.numbers-info {
+    text-align: center;
+    margin: auto;
+}
+
+.first-number {
+    border-right: 6px solid #000;
+}
+
+#count1, #count2 {
+    font-family: 'Noto Serif';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 95px;
+    height: 114px;
+    margin-bottom: 10px;
+}
+
+.numbers-info h5 {
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 49px;
+    line-height: 64px;
+    letter-spacing: -0.02em;
+    color: #414141;
+    margin-bottom: 0px;
+}
+
+.numbers-info  p {
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 100;
+    font-size: 18px;
+    line-height: 28px;
+    color: #11142D;
+    margin-bottom: 0px;
+}

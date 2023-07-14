@@ -1,0 +1,11 @@
+<div class="{{classes}} py-20 px-16 bg-white shadow-lg">
+    <a href="{{ article.ur }}">
+        <img src="{{ article.image | image_url: width: 780 }}" alt="{{ article.title}}" loading="lazy" class="w-full h-full min-h-[200px]  object-cover rounded mb-8">
+    </a>
+    <p class="text-small mb-4 text-brand-red uppercase">{{ blog.title }}</p>
+    <a href="{{ article.url }}"><h3 class="text-3xl text-black font-Noto font-semibold mb-7">{{ article.title }}</h3></a>
+    <div class="font-normal font-DMSans text-[14px] mb-8">{{ article.content | truncatewords: 19, '...' }}</div>
+    <a href="{{ article.url }}" class="hover:bg-brand-red max-w-[250px] text-center text-stone-600 items-center uppercase block my-6 w-[50%] flex justify-between">
+        <span>{{ 'blogs.article.read_more' | t }}</span>
+    </a>
+</div>

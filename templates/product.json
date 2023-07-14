@@ -1,0 +1,169 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-product",
+      "blocks": {
+        "vendor": {
+          "type": "text",
+          "settings": {
+            "text": "{{ product.vendor }}",
+            "text_style": "uppercase"
+          }
+        },
+        "title": {
+          "type": "title",
+          "settings": {
+          }
+        },
+        "price": {
+          "type": "price",
+          "settings": {
+          }
+        },
+        "variant_picker": {
+          "type": "variant_picker",
+          "settings": {
+            "picker_type": "button"
+          }
+        },
+        "quantity_selector": {
+          "type": "quantity_selector",
+          "settings": {
+          }
+        },
+        "buy_buttons": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_dynamic_checkout": true
+          }
+        },
+        "2d1b662d-1e50-4279-895c-87ff2d43b64c": {
+          "type": "sku",
+          "settings": {
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "vendor",
+        "title",
+        "price",
+        "variant_picker",
+        "quantity_selector",
+        "buy_buttons",
+        "2d1b662d-1e50-4279-895c-87ff2d43b64c"
+      ],
+      "settings": {
+        "enable_sticky_info": true,
+        "media_size": "large",
+        "constrain_to_viewport": true,
+        "media_fit": "cover",
+        "gallery_layout": "thumbnail_slider",
+        "media_position": "left",
+        "image_zoom": "none",
+        "mobile_thumbnails": "hide",
+        "hide_variants": true,
+        "enable_video_looping": false,
+        "padding_top": 36,
+        "padding_bottom": 12
+      }
+    },
+    "related-products": {
+      "type": "related-products",
+      "settings": {
+        "heading": "Productos Relacionados",
+        "heading_size": "h0",
+        "products_to_show": 4,
+        "columns_desktop": 4,
+        "color_scheme": "background-1",
+        "image_ratio": "square",
+        "show_secondary_image": true,
+        "show_vendor": false,
+        "show_rating": false,
+        "columns_mobile": "2",
+        "padding_top": 36,
+        "padding_bottom": 28
+      }
+    },
+    "7dd66518-0027-4dfe-be6c-647becaf2e37": {
+      "type": "icons-with-description",
+      "blocks": {
+        "f549da4d-f933-4f04-8eb7-c0449b483284": {
+          "type": "icons",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Group_36927.png",
+            "title": "ENVÍOS SEGUROS",
+            "description": "A todo el país. Conoce más sobre nuestra Política de envíos.(esta frase con redirección a la interna de Política de envíos)"
+          }
+        },
+        "e288f813-fc10-4ca9-8867-486c6c0f9ebd": {
+          "type": "icons",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Group_36928.png",
+            "title": "GARANTÍA",
+            "description": "Directa con nuestros aliados o nuestra marca. Conoce más en Términos y condiciones. (esta frase con redirección a la interna de Términos y condiciones)"
+          }
+        },
+        "6a447e41-2080-4f22-aa7a-8b577e61c344": {
+          "type": "icons",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Group_36930.png",
+            "title": "COMPRA SEGURA",
+            "description": "Tus datos están siempre protegidos dentro de nuestra página"
+          }
+        }
+      },
+      "block_order": [
+        "f549da4d-f933-4f04-8eb7-c0449b483284",
+        "e288f813-fc10-4ca9-8867-486c6c0f9ebd",
+        "6a447e41-2080-4f22-aa7a-8b577e61c344"
+      ],
+      "settings": {
+      }
+    },
+    "13d6ae87-b75b-4fa1-9783-8e4eb8a7d260": {
+      "type": "icons-banner",
+      "disabled": true,
+      "blocks": {
+        "7d3f9fac-b570-4107-93bb-11565fc9f3a0": {
+          "type": "home",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Vector_1_9f6d3572-c60a-4d4d-9c81-cb4b02ad8dfc.png",
+            "title": "ENVÍOS SEGUROS",
+            "text": "A todo el país.\nConoce más sobre nuestra <a href=\"https:\/\/vikingos-colombia.myshopify.com\/pages\/shipping-policies\">Política de envíos.<\/a>"
+          }
+        },
+        "19906f3e-baa3-4fa8-9fa1-2cb494c3ea5f": {
+          "type": "home",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/ant-design_safety-certificate-outlined.png",
+            "title": "GARANTÍA",
+            "text": "Directa con nuestros aliados o nuestra marca.\nConoce más en <a href=\"https:\/\/vikingos-colombia.myshopify.com\/pages\/terms-conditions\">Términos y condiciones.<\/a>"
+          }
+        },
+        "ae68f1f4-bb45-4325-a6bc-aa3092cc4c3f": {
+          "type": "home",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Vector_adb87ee8-1093-46ef-b168-4d0ec496752e.png",
+            "title": "COMPRA SEGURA",
+            "text": "Tus datos están siempre protegidos dentro de nuestra página"
+          }
+        }
+      },
+      "block_order": [
+        "7d3f9fac-b570-4107-93bb-11565fc9f3a0",
+        "19906f3e-baa3-4fa8-9fa1-2cb494c3ea5f",
+        "ae68f1f4-bb45-4325-a6bc-aa3092cc4c3f"
+      ],
+      "settings": {
+        "color_body": "#f6f4ed"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "related-products",
+    "7dd66518-0027-4dfe-be6c-647becaf2e37",
+    "13d6ae87-b75b-4fa1-9783-8e4eb8a7d260"
+  ]
+}

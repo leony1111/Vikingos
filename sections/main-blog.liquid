@@ -1,0 +1,56 @@
+<div class="w-full bg-cover bg-top md:flex justify-center items-center h-[14rem] md:h-[32rem]" style="background-image: url('{{ section.settings.image | image_url: width: 1440 }}')">
+  <div class="container max-w-96 mx-auto h-full flex md:block items-center justify-center">
+    <h1 class="md:float-right md:pr-[200px] md:text-[9rem] text-7xl text-center pr-0 uppercase">Blog</h1>
+  </div>
+</div>
+
+<div class="container mt-12">
+  <div class="block md:flex items-start gap-10">
+    <div class="basis-2/3">
+      {% render 'breadcrumbs' %}
+        {% for article in blog.articles %}
+          {% render 'blog-card', imagePosition: 'bottom', article: article, blog: blog %}
+        {% endfor %}
+    </div>
+    <div class="basis-1/3">
+      {% for article in section.settings.blog.articles %}
+        {% render 'blog-card', classes: "mb-8", article: article, blog: section.settings.blog, forloop: forloop %}
+      {% endfor %}
+    </div>
+  </div>
+</div>
+
+<div class="bg-[#F6F4ED] py-12 md:py-40">
+  <div class="container">
+    <p class="text-brand-red text-[25px] mb-12 md:text-left text-center font-semibold">Articulos Destacados</p>
+    <div class="block md:flex items-start gap-24">
+      {% paginate section.settings.blog.articles by 3 %}
+      {% for article in section.settings.blog.articles %}
+          <div class="basis-1/3 mb-8 md:mb-0">{% render 'blog-card-2', classes:"min-h-[600px]",article: article, blog: section.settings.blog %}</div>
+      {% endfor %}
+    {% endpaginate %}
+    </div>
+    {%- if paginate.pages > 1 -%}
+      {%- render 'pagination', paginate: paginate -%}
+    {%- endif -%}
+  </div>
+</div>
+
+
+{% schema %}
+{
+  "name": "Blog",
+  "settings": [
+    {
+      "type": "image_picker",
+      "id": "image",
+      "label": "Hero Image"
+    },
+    {
+      "type": "blog",
+      "id": "blog",
+      "label": "Featured Blog"
+    }
+  ]
+}
+{% endschema %}

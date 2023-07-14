@@ -1,0 +1,58 @@
+{{ 'main-banner.css' | asset_url | stylesheet_tag }}
+
+<section class="promotional-banner" style="background-image:url({{ section.settings.image | img_url: '1550x870' }});">
+    <div class="promotional-banner-content">
+        <h2>{{ section.settings.title }}
+        </h2>
+        <h3>{{ section.settings.subtitle }}
+        </h3>
+        <p>{{ section.settings.text }}
+        </p>
+        <a class="btn btn-theme btn2" href="{{ section.settings.url }}">
+            {{ section.settings.btn_text }}
+        </a>
+    </div>
+</section>
+
+{% schema %}
+    {
+        "name": "Promotional Banner",
+        "class": "section-promotional-banner vk-promotional-banner",
+        "settings": [
+            {
+                "type": "image_picker",
+                "id": "image",
+                "label": "Image"
+            },
+            {
+                "type": "textarea",
+                "id": "title",
+                "label": "Title"
+            },
+            {
+                "type": "textarea",
+                "id": "subtitle",
+                "label": "Subtitle"
+            },
+            {
+                "type": "text",
+                "id": "text",
+                "label": "Text"
+            }, {
+                "type": "text",
+                "id": "btn_text",
+                "label": "Text Button"
+            }, {
+                "type": "url",
+                "id": "url",
+                "label": "link"
+            }
+        ],
+        "presets": [
+            {
+                "name": "Promotional Banner",
+                "category": "Text"
+            }
+        ]
+    }
+{% endschema %}

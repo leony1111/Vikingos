@@ -1,0 +1,14 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-blog",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/girl-in-stylish-shoes-lying-on-sofa-indoor-photo-of-caucasian-lady-chilling-on-couch_1.jpg",
+        "blog": "news"
+      }
+    }
+  },
+  "order": [
+    "main"
+  ]
+}

@@ -1,0 +1,29 @@
+<section class="custom-html">
+    <h3>{{ section.settings.title }}</h3>
+    <p>{{ section.settings.content }}</p>
+</section>
+
+{% schema %}
+    {
+        "name": "Custom HTML",
+        "class": "section-map",
+        "settings": [
+            {
+                "type": "textarea",
+                "id": "title",
+                "label": "Title"
+            },
+            {
+                "type": "textarea",
+                "id": "content",
+                "label": "Content"
+            }
+        ],
+        "presets": [
+        {
+            "name": "Custom HTML",
+            "category": "Text"
+        }
+        ]
+    }
+{% endschema %}

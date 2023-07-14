@@ -1,0 +1,59 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "form": {
+      "type": "contact-form",
+      "disabled": true,
+      "settings": {
+        "icon_form": "shopify:\/\/shop_images\/Vector_2.png",
+        "heading": "Leverage agile frameworks to provide a robust\nsynopsis for high level overviews.",
+        "color_scheme": "background-2",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "b045ba68-9012-423f-a1b9-8c9b8bd65c6c": {
+      "type": "contact-map-form",
+      "blocks": {
+        "c5557e33-b6a1-42a5-b0d4-f91d9fd78300": {
+          "type": "text",
+          "settings": {
+            "icon_map": "shopify:\/\/shop_images\/Forma_1.png",
+            "text_map": "<h3>CENTRO DE MEDELLÍN<\/h3>\n<p><strong>CARRERA 55 # 46 -41 SECTOR TENERIFE<\/strong><\/p>"
+          }
+        },
+        "99ee0d7d-ca3f-4cc6-9f64-3a276d4fa160": {
+          "type": "text",
+          "settings": {
+            "icon_map": "shopify:\/\/shop_images\/Vector.png",
+            "text_map": "<p><\/p><div>+57 3117410100<\/div>\n<p>\nHorario de atención: de Lunes a sábado de 8:00 am a 6:00 pm.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "c5557e33-b6a1-42a5-b0d4-f91d9fd78300",
+        "99ee0d7d-ca3f-4cc6-9f64-3a276d4fa160"
+      ],
+      "settings": {
+        "title-map": "Contáctanos",
+        "map": "<iframe src=\"https:\/\/www.google.com\/maps\/embed?pb=!1m18!1m12!1m3!1d31727.10876775896!2d-75.59972088820133!3d6.2783745559780115!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e4428fff742c52b%3A0x1425b0760dc5a38d!2sComercializadora%20Vikingos!5e0!3m2!1ses!2sco!4v1685477572693!5m2!1ses!2sco\" width=\"450\" height=\"450\" style=\"border:0;\" allowfullscreen=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer-when-downgrade\"><\/iframe>",
+        "heading": "",
+        "color_scheme": "background-2",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    }
+  },
+  "order": [
+    "main",
+    "form",
+    "b045ba68-9012-423f-a1b9-8c9b8bd65c6c"
+  ]
+}

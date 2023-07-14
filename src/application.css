@@ -1,0 +1,30 @@
+/* purgecss start ignore */
+@tailwind base;
+@tailwind components;
+/* purgecss end ignore */
+@tailwind utilities;
+
+/* Breadcrumbs */
+.breadcrumbs__list .separator:last-child {
+    display: none
+}
+
+* {
+    font-size: 14px;
+}
+
+.card--standard .card__inner {
+    min-height: 168px;
+}
+
+.price--sold-out .price__regular, .price__regular {
+    display: none !important;
+}
+
+.price {
+    margin-top: 2rem !important;
+}
+
+a:hover {
+    color: #9D0616 !important;
+}

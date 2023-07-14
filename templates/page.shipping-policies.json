@@ -1,0 +1,46 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "padding_top": 28,
+        "padding_bottom": 28
+      }
+    },
+    "b743d82f-1edf-494f-aca4-ad29de6cbdc3": {
+      "type": "custom-html",
+      "settings": {
+        "title": "",
+        "content": "<div style=\"text-align:center;\">\n<span>Current as of 20 Jan 2022<\/span>\n<br>\n<h2>Politicas de Envio<\/h2>\n<br>\n<\/div>"
+      }
+    },
+    "8aecb623-55f4-417e-9d75-299398d8a641": {
+      "type": "rich-text",
+      "blocks": {
+        "template--19326450925854__8aecb623-55f4-417e-9d75-299398d8a641-168625605801868561-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>En la Comercializadora e importadora Vikingos, contamos con varias opciones de envío, aunque siempre los envíos los realizamos a través de empresas de mensajería. Para conocer exactamente cuánto costará tu envío, ten en cuenta que esto dependerá de varios factores: el destino, el plazo de entrega seleccionado, el valor de la compra y el peso del envío.<\/p><p>Los precios publicados en nuestros diferentes medios de comunicación electrónicos y\/o escritos NO incluyen el costo del envío, el cual puede ser Nacional o Internacional<\/p><p>El Cliente se compromete a proporcionar una dirección válida y localizable dentro de la república de Colombia o en el extranjero, donde se pueda entregar el pedido.  En caso de que El Cliente proporcione una dirección incorrecta o que no sea localizada por la empresa de mensajería, cualquier otro costo adicional será cubierto por El Cliente mismo.<\/p><p>Ten presente que para que los tiempos de entrega se cumplan debes realizar el pedido antes de la hora de cierre de nuestra tienda. Pasada dicha hora de cierre, el pedido se tramitará al día siguiente, dado que no podemos entregárselo a la empresa de transporte. Ten en cuenta que la hora de entrega a la empresa de mensajería depende de la empresa seleccionada. <\/p><p>Los pedidos serán enviados únicamente en días hábiles los cuales se catalogan de lunes a sábados excluyendo domingos y festivos nacionales de Colombia. <\/p><p>Los pedidos pagados por transferencia no serán efectivos hasta que recibamos el importe de la transferencia en nuestra cuenta corriente. A través del resto de medios de pago, el pedido comenzará a prepararse de manera inmediata. Si el pedido es urgente, recomendamos no usar la transferencia bancaria como método de pago.<\/p><p>Siempre que realices un pedido en Comercializadora e Importadora Vikingos te informaremos por nuestros medios de comunicación de cómo hemos procedido con el envío. Además, supervisamos la entrega y nos pondremos en contacto contigo si existiera algún problema. Es por eso que pedimos que nos facilites un teléfono en el proceso de pedido.<\/p><p><\/p><p> <strong>HORARIO Y DÍA DE ENTREGA<\/strong><\/p><p><br\/><\/p><p>Ten en cuenta que las empresas de transporte solo trabajan de lunes a sábado. entendiendo que el sábado reciben hasta el mediodía, entrega que será efectiva al siguiente hábil, es decir el día lunes. No reparten los domingos ni festivos. Además, cuando te damos fechas de entrega, no tenemos en cuenta si es festivo local o autonómico en el lugar de destino; sólo consideramos las fiestas nacionales y locales de origen.<\/p><p>No podemos garantizar una hora de entrega. Las empresas de transporte podrán realizar la entrega a lo largo del día acordado. No obstante, se podrá indicar un horario aproximado que la empresa intentará cumplir, pero no está obligada. En caso de que no te localicen, la empresa de transporte intentará una segunda entrega pactada contigo. Si tras el segundo intento no te localizan, deberás pasar a recoger el pedido a las instalaciones de la empresa de transporte.<\/p><p>El tiempo estimado de entrega y el costo del envío le será proporcionado al concluir su pedido, por la persona de Telemarketing que le atienda.  Y comienza a contar en el momento que su pago se ve reflejado en las cuentas de La comercializadora e importadora vikingos.<\/p><p><br\/><\/p><p><strong>RESPONSABILIDAD EN LOS PLAZOS Y TRANSPORTISTA<\/strong><\/p><p><br\/><\/p><p>En casos excepcionales, nos reservamos el derecho a modificar la empresa de transporte con la que te enviaremos el paquete, pero siempre manteniendo los tiempos de tránsito.<\/p><p>La responsabilidad de Comercializadora e importadora Vikingos queda limitada en casos de <strong>fuerza mayor<\/strong> (huelgas, fenómenos climatológicos adversos que impidan el tráfico normal por tierra, mar o aire,). En estos casos, se entregarán los pedidos lo antes posible, y los plazos arriba indicados no se aplicarán.<\/p><p><br\/><\/p><p><strong>POLÍTICA DE DEVOLUCIONES<\/strong><\/p><p><br\/><\/p><p>Dentro del plazo de los 14 días hábiles siguientes a la recepción de tu pedido, puedes devolverlo asumiendo tú el cobro de los gastos de devolución.<\/p><p>En el caso que nos solicites la devolución de un producto ya abierto, sólo podrás devolverlo si aquél conserva al menos un 80% de su contenido original. En este caso, deberás devolvernos en el mejor estado posible para ser aceptado.<\/p><p>Si has recibido un envío de producto erróneo (te ofrecemos disculpas por adelantado) nosotros asumimos los gastos de devolución del producto y del envío del nuevo producto lo antes posible.<\/p><p>Instrucciones para devolver un producto: Para devolver un producto<a href=\"https:\/\/www.vinistas.com\/contactanos\"> contáctanos<\/a>, con los datos del pedido, tu identificación. Te responderemos lo antes posible.<\/p><p>De cumplir todos los requisitos, una vez recibamos el pedido o producto devuelto procederemos al abono del cobro total del pedido o al envío de uno nuevo, de acuerdo a lo que elijas.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--19326450925854__8aecb623-55f4-417e-9d75-299398d8a641-168625605801868561-1"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    }
+  },
+  "order": [
+    "main",
+    "b743d82f-1edf-494f-aca4-ad29de6cbdc3",
+    "8aecb623-55f4-417e-9d75-299398d8a641"
+  ]
+}
