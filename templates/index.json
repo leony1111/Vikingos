@@ -6,7 +6,7 @@
         "c2233116-1381-43c2-8597-8f2cd733d873": {
           "type": "home",
           "settings": {
-            "slider_image": "shopify:\/\/shop_images\/04_bf1d25e9-f3b5-480c-9ed4-2a61c7c38c64.jpg",
+            "slider_image": "shopify:\/\/shop_images\/Cover_3.jpg",
             "slider_title": "CAFÉ",
             "slider_subtitle": "Una línea de productos para tu",
             "btn_text": "Ver colección",
@@ -17,7 +17,7 @@
         "18cbbefc-8ea2-43a4-9d1a-d193e5ca3a8f": {
           "type": "home",
           "settings": {
-            "slider_image": "shopify:\/\/shop_images\/01_27f12fc7-012b-4b90-8210-27e0563c3f47.jpg",
+            "slider_image": "shopify:\/\/shop_images\/Cover_3.jpg",
             "slider_title": "BAR Y \n<br>COCTELERÍA",
             "slider_subtitle": "Todo lo que necesitas para tu",
             "btn_text": "ver colección",
@@ -28,43 +28,19 @@
         "4c4da831-d591-40d1-982b-b6614e097989": {
           "type": "home",
           "settings": {
-            "slider_image": "shopify:\/\/shop_images\/03.jpg",
+            "slider_image": "shopify:\/\/shop_images\/Cover_3.jpg",
             "slider_title": "MARCAS ALIADAS",
             "slider_subtitle": "Nos respaldan nuestras",
             "btn_text": "ver colección",
             "url": "shopify:\/\/collections\/otros",
             "class_container": "marcas-aliadas"
           }
-        },
-        "7e2f2bf3-b1b1-463b-b6a2-7a4f7a49d060": {
-          "type": "home",
-          "settings": {
-            "slider_image": "shopify:\/\/shop_images\/05_908c9aa1-0281-4a50-814e-e2668f7e2dbe.jpg",
-            "slider_title": "ELECTROMENORES",
-            "slider_subtitle": "Comprueba su calidad y Conoce nuestra línea de",
-            "btn_text": "ver colección",
-            "url": "shopify:\/\/collections\/electromenores",
-            "class_container": "electromenores"
-          }
-        },
-        "27c1c441-a914-47c9-b9cf-592c10eecd32": {
-          "type": "home",
-          "settings": {
-            "slider_image": "shopify:\/\/shop_images\/02_36965a25-01a3-4865-8c5f-2978a3a1ccbf.jpg",
-            "slider_title": "TU NEGOCIO",
-            "slider_subtitle": "Somos el aliado perfecto para",
-            "btn_text": "ver colección",
-            "url": "shopify:\/\/collections\/otros",
-            "class_container": "tu-negocio"
-          }
         }
       },
       "block_order": [
         "c2233116-1381-43c2-8597-8f2cd733d873",
         "18cbbefc-8ea2-43a4-9d1a-d193e5ca3a8f",
-        "4c4da831-d591-40d1-982b-b6614e097989",
-        "7e2f2bf3-b1b1-463b-b6a2-7a4f7a49d060",
-        "27c1c441-a914-47c9-b9cf-592c10eecd32"
+        "4c4da831-d591-40d1-982b-b6614e097989"
       ],
       "settings": {
         "text": ""
@@ -76,7 +52,6 @@
         "4f251771-0080-4356-a5e9-a3f3a0d8756e": {
           "type": "home",
           "settings": {
-            "slider_image": "shopify:\/\/shop_images\/cocina.jpg",
             "btn_text": "Cocina",
             "url": "shopify:\/\/collections\/cocina"
           }
@@ -84,7 +59,6 @@
         "f95abb05-3531-4150-8bdf-48c5b0f0cdad": {
           "type": "home",
           "settings": {
-            "slider_image": "shopify:\/\/shop_images\/bar-cafe.jpg",
             "btn_text": "Bar y café",
             "url": "shopify:\/\/collections\/bar-y-cafe"
           }
@@ -92,7 +66,6 @@
         "204af877-07f5-4351-a6e1-b8225ecd2495": {
           "type": "home",
           "settings": {
-            "slider_image": "shopify:\/\/shop_images\/terraza-exterior.jpg",
             "btn_text": "Terraza y exteriores",
             "url": "shopify:\/\/collections\/terraza-y-exteriores"
           }
@@ -100,7 +73,6 @@
         "923c87bf-faba-4c9f-b36a-9a5c0e4b2c32": {
           "type": "home",
           "settings": {
-            "slider_image": "shopify:\/\/shop_images\/aseo.jpg",
             "btn_text": "aseo",
             "url": "shopify:\/\/collections\/aseo"
           }
@@ -108,7 +80,6 @@
         "ff80a935-4100-4819-bc01-18a441e36f1b": {
           "type": "home",
           "settings": {
-            "slider_image": "shopify:\/\/shop_images\/mesa.jpg",
             "btn_text": "mesa",
             "url": "shopify:\/\/collections\/mesa"
           }
@@ -116,7 +87,6 @@
         "ff971072-b26b-457f-83de-7555a9d07a1a": {
           "type": "home",
           "settings": {
-            "slider_image": "shopify:\/\/shop_images\/otros.jpg",
             "btn_text": "otros",
             "url": "shopify:\/\/collections\/otros"
           }
@@ -140,7 +110,6 @@
         "8bb4c851-c884-4b80-9918-2ffb7dfcb34a": {
           "type": "home",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Vector_1_9f6d3572-c60a-4d4d-9c81-cb4b02ad8dfc.png",
             "title": "ENVÍOS SEGUROS",
             "text": "A todo el país.\nConoce más sobre nuestra <a href=\"https:\/\/vikingos-colombia.myshopify.com\/pages\/shipping-policies\">Política de envíos.<\/a>"
           }
@@ -148,7 +117,6 @@
         "f9afee64-95f3-4cb8-b95f-88d1199858a9": {
           "type": "home",
           "settings": {
-            "image": "shopify:\/\/shop_images\/ant-design_safety-certificate-outlined.png",
             "title": "GARANTÍA",
             "text": "Directa con nuestros aliados o nuestra marca.\nConoce más en <a href=\"https:\/\/vikingos-colombia.myshopify.com\/pages\/terms-conditions\">Términos y condiciones.<\/a>"
           }
@@ -156,7 +124,6 @@
         "c36b8119-260a-4bf0-8e73-f0ad63fb66a6": {
           "type": "home",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Vector_cb89fece-ae67-4cad-9414-de1bb19ffb02.png",
             "title": "COMPRA SEGURA",
             "text": "Tus datos están siempre protegidos dentro de nuestra página"
           }
@@ -201,7 +168,6 @@
     "e4c292fe-862b-4166-9788-00608ef477e9": {
       "type": "promotional-banner",
       "settings": {
-        "image": "shopify:\/\/shop_images\/rompesecciones.jpg",
         "title": "",
         "subtitle": "Los mejores \n<br>utensilios\n<br>PARA PREPARAR \n<br>TU CAFÉ",
         "text": "El complemento ideal para tu cocina",
@@ -295,18 +261,6 @@
     },
     "168920929415e61f19": {
       "type": "apps",
-      "blocks": {
-        "1b61d00b-a7c2-471f-8536-be5ad4fac2d1": {
-          "type": "shopify:\/\/apps\/instafeed\/blocks\/app-block\/9d35f684-f743-45ca-9cc2-c5409bb241a8",
-          "settings": {
-            "heading": "",
-            "feeds_type": "FEEDS"
-          }
-        }
-      },
-      "block_order": [
-        "1b61d00b-a7c2-471f-8536-be5ad4fac2d1"
-      ],
       "settings": {
         "include_margins": true
       }
